@@ -1,12 +1,3 @@
-## Due Thursday 4/8:
-
-1.  Calculate a new field using already existing fields in the `CA_Counties_2019.shp` dataset or another dataset of your choosing.
-
-2. Create a geojson named `lab1.geojson` and add it to your repository.
-
-3. Create a new markdown file called `lab1.md` and explain the following:
-   -  What fields you used
-   -  Why you used these fields
-   -  What problems could the data set have
-4. Commit both `lab1.geojson` and `lab1.md` to your repository and push it to GitHub.
-5. Fill out this form so I can associate you with your GitHub repo: [https://forms.gle/J8kebeHEd5xbGaiRA](https://forms.gle/J8kebeHEd5xbGaiRA)
+The fields that I used for the new field were "Native population" and "Total Population." 
+I used the aforementioned fields as a means to find the presence and magnitude of Native people in the state by county. Because the Native population was the first to populate the city and broader area, I am interested in finding how their populations have continued through the test of time. Moreover, there was no available category for the "Latina/o" population in California. 
+In line with the previous quuestion, I am interested in the implications that the absence of the "Latino" population within the statistics may have. Being that this ethnic group is now the majority in the state and in several counties for some time, their presence should affect subsequent numbers in different categories. 
