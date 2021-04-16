@@ -7,6 +7,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 //JavaScript let variable declaration to create a marker
-let marker = L.marker([34.0709, -118.444]).addTo(map)
-		.bindPopup('Math Sciences 4328 aka the Technology Sandbox<br> is the lab where I work in ')
+let marker = L.marker([34.280384,-118.439911]).addTo(map)
+		.bindPopup('818 Boxing Club')
+		.openPopup();
+let Boxingym = L.marker([34.28693580589568, -118.44518347510287]).addTo(map)
+		.bindPopup('Suicide Boxing + Fitness')
 		.openPopup();
