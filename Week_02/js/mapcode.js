@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Leaflet Map</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+
+        <style> #map{height:90vh}</style>
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    </head>
+    
+    <body>
+        <div id="map"></div>
+    </body>
+    <script src="js/init.js"></script>
+</html>
+
 // JavaScript const variable declaration
 const map = L.map('map').setView([34.0709, -118.444], 15);
 
