@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: .1fr .8fr .1fr; /* add rows for our header/footer */
+    grid-template-areas: "header" "mappanel contentpanel" "footer"
+}
+
+header{
+    grid-area: header;
+}
+
+
+footer{
+    grid-area: footer
+}
+
+#contents{
+    grid-area: contentpanel;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#map{
+    height:90vh;
+    grid-area: mappanel;
+} 
+
