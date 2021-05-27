@@ -1,9 +1,0 @@
-body{
-    background-image: url("IMG_5498.jpeg");
-    background-size: 300px;
-    background-color: #fcedf5;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-auto-rows: minmax(5px, auto);
-    grid-template-areas: "header header" " sidebar mappanel" 
-}
