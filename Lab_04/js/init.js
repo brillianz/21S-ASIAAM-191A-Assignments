@@ -63,7 +63,7 @@ function processData(theData){
               formattedRow[key.replace("gsx$", "")] = row[key].$t
         }
       }
-      // add the clean data
+      // add clean data
       formattedData.push(formattedRow)
     }
     // lets see what the data looks like when its clean!
